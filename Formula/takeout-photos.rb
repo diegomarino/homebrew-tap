@@ -5,7 +5,7 @@ class TakeoutPhotos < Formula
 
   on_arm do
     url "https://github.com/diegomarino/takeout-photos/releases/download/v#{version}/takeout-photos-#{version}-macos-arm64.tar.gz"
-    sha256 "29ea43b55ae5ec4cef8d62bd4a1b3629531e10658537ad6b2f79f7948e20c1ce"
+    sha256 "38b5cdf4f2e1f653ef1cde7d4a5e31390cfbe08fa4f04120b182c69e6bbae803"
   end
 
   def install
