@@ -1,11 +1,11 @@
 class TakeoutPhotos < Formula
   desc "Process and organize Google Photos Takeout exports with metadata preservation"
   homepage "https://github.com/diegomarino/takeout-photos"
-  version "1.1.0"
+  version "1.1.1"
 
   on_arm do
     url "https://github.com/diegomarino/takeout-photos/releases/download/v#{version}/takeout-photos-#{version}-macos-arm64.tar.gz"
-    sha256 "d3a147145dfc01e1b86d3d1715a87bb9452e544615a777af1cb119c1eb5a3fd8"
+    sha256 "c90aa336b5ecd6885eec7a62e789e11838086d3cf96b83c05f06975c82cf6830"
   end
 
   def install
